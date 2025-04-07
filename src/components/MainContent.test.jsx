@@ -10,7 +10,7 @@ describe('MainContent', () => {
 
     expect(screen.getByRole('button')).toBeInTheDocument();
   });
-
+// My test
   it('should show the help area after clicking the button', async () => {
     render(<MainContent />);
 
